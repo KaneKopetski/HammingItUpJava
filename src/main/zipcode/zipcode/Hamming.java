@@ -13,7 +13,7 @@ public class Hamming {
     }
 
     int getHammingDistance() {
-        Integer sum = 0;
+        int sum = 0;
         for (int i = 0; i < this.sequence1.length(); i++) {
             if (this.sequence1.charAt(i) != this.sequence2.charAt(i)) {
                 sum++;
